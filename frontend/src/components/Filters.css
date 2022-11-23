@@ -18,6 +18,10 @@ button{
   gap:1rem;
 }
 
+.active-filter{
+  text-transform: capitalize;
+}
+
 .filter-only{
   display: flex;
   margin: 0.9rem;
@@ -38,6 +42,10 @@ select{
 .validate-button:hover{
   background-color: #D3D3D3;
   color:#090909;
+}
+
+.ingredient-option{
+  text-transform: capitalize;
 }
 
 @media screen and (min-width: 768px) {
