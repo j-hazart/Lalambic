@@ -49,9 +49,6 @@ function Filters({ filters, setIsSearchActive }) {
     }
   }
 
-  function FirstLetterUppercase(word) {
-    return word[0].toUpperCase() + word.slice(1);
-  }
   return (
     <div>
       <form className="filter-form" onSubmit={handleSubmit}>
@@ -88,10 +85,11 @@ function Filters({ filters, setIsSearchActive }) {
               })
               .map((ingredient) => (
                 <option
+                  className="ingredient-option"
                   key={ingredient.label}
-                  value={FirstLetterUppercase(ingredient.label)}
+                  value={ingredient.label}
                 >
-                  {FirstLetterUppercase(ingredient.label)}
+                  {ingredient.label}
                 </option>
               ))}
           </select>
