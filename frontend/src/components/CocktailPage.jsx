@@ -13,7 +13,7 @@ function CocktailPage({
       <button className="cross" type="button" onClick={handlePage}>
         <img
           className="imagecocktail"
-          src="../src/assets/close.png"
+          src="https://cdn.discordapp.com/attachments/1046174259246026752/1046174416746315916/unknown.png"
           alt="cross"
         />
       </button>

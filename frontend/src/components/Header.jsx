@@ -42,7 +42,7 @@ function Header({
           }}
         >
           <img
-            src="../src/assets/logo-texte.png"
+            src="https://cdn.discordapp.com/attachments/1046174259246026752/1046174326354870362/unknown.png"
             alt="logo"
             className="logo-header"
           />
